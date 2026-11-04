@@ -1,0 +1,72 @@
+header {
+  background-color: #4a5568;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+header img {
+  height: 150px;
+}
+
+header h1 {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  margin-left: 15px;
+}
+
+#controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div{
+    background-color: #3d2f28;
+}
+
+button{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input{
+   font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+
+#lookup{
+    background-color: #7893c7;
+}
+
+#lookupcities{
+    background-color:#b655e2;
+}
+
+#countries, #cities {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  color: #f5e6d3;
+}
+
+#countries th, #cities th {
+  background-color: #8b5a3c;
+  padding: 10px;
+  border: 1px solid #6b5245;
+  text-align: left;
+}
+
+#countries td, #cities td {
+  padding: 10px;
+  border: 1px solid #6b5245;
+}
+
+#countries tr:nth-child(even), #cities tr:nth-child(even) {
+  background-color: #3a2e29;
+}
